@@ -11,6 +11,12 @@
 		E94742E32A4680E200BF249D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94742E22A4680E200BF249D /* ContentView.swift */; };
 		E94742E52A4680E500BF249D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94742E42A4680E500BF249D /* Assets.xcassets */; };
 		E94742E82A4680E500BF249D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94742E72A4680E500BF249D /* Preview Assets.xcassets */; };
+		E98EDFEE2A72D62400A0D288 /* PeopleYouMayKnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98EDFEC2A72D62400A0D288 /* PeopleYouMayKnowView.swift */; };
+		E98EDFEF2A72D62400A0D288 /* PeopleYouMayKnowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98EDFED2A72D62400A0D288 /* PeopleYouMayKnowData.swift */; };
+		E98EDFF32A72D6BA00A0D288 /* HomePageFriendListViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98EDFF12A72D6BA00A0D288 /* HomePageFriendListViewData.swift */; };
+		E98EDFF42A72D6BA00A0D288 /* HomePageFriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98EDFF22A72D6BA00A0D288 /* HomePageFriendListView.swift */; };
+		E990CAE12A7098FD00768FAF /* MenuPageFriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E990CADF2A7098FD00768FAF /* MenuPageFriendListView.swift */; };
+		E990CAE22A7098FD00768FAF /* MenuPageFriendListViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E990CAE02A7098FD00768FAF /* MenuPageFriendListViewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		E94742E22A4680E200BF249D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E94742E42A4680E500BF249D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E94742E72A4680E500BF249D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E98EDFEC2A72D62400A0D288 /* PeopleYouMayKnowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleYouMayKnowView.swift; sourceTree = "<group>"; };
+		E98EDFED2A72D62400A0D288 /* PeopleYouMayKnowData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleYouMayKnowData.swift; sourceTree = "<group>"; };
+		E98EDFF12A72D6BA00A0D288 /* HomePageFriendListViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageFriendListViewData.swift; sourceTree = "<group>"; };
+		E98EDFF22A72D6BA00A0D288 /* HomePageFriendListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageFriendListView.swift; sourceTree = "<group>"; };
+		E990CADF2A7098FD00768FAF /* MenuPageFriendListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPageFriendListView.swift; sourceTree = "<group>"; };
+		E990CAE02A7098FD00768FAF /* MenuPageFriendListViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPageFriendListViewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,9 @@
 			children = (
 				E94742E02A4680E200BF249D /* FaceBook_FriendSuggestions_pageApp.swift */,
 				E94742E22A4680E200BF249D /* ContentView.swift */,
+				E98EDFEB2A72D62400A0D288 /* PeopleYouMayKnow */,
+				E98EDFF02A72D68000A0D288 /* HomePageFirendsList */,
+				E990CADE2A7098FD00768FAF /* MenuPageFriendList */,
 				E94742E42A4680E500BF249D /* Assets.xcassets */,
 				E94742E62A4680E500BF249D /* Preview Content */,
 			);
@@ -65,6 +80,33 @@
 				E94742E72A4680E500BF249D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E98EDFEB2A72D62400A0D288 /* PeopleYouMayKnow */ = {
+			isa = PBXGroup;
+			children = (
+				E98EDFEC2A72D62400A0D288 /* PeopleYouMayKnowView.swift */,
+				E98EDFED2A72D62400A0D288 /* PeopleYouMayKnowData.swift */,
+			);
+			path = PeopleYouMayKnow;
+			sourceTree = "<group>";
+		};
+		E98EDFF02A72D68000A0D288 /* HomePageFirendsList */ = {
+			isa = PBXGroup;
+			children = (
+				E98EDFF22A72D6BA00A0D288 /* HomePageFriendListView.swift */,
+				E98EDFF12A72D6BA00A0D288 /* HomePageFriendListViewData.swift */,
+			);
+			path = HomePageFirendsList;
+			sourceTree = "<group>";
+		};
+		E990CADE2A7098FD00768FAF /* MenuPageFriendList */ = {
+			isa = PBXGroup;
+			children = (
+				E990CADF2A7098FD00768FAF /* MenuPageFriendListView.swift */,
+				E990CAE02A7098FD00768FAF /* MenuPageFriendListViewData.swift */,
+			);
+			path = MenuPageFriendList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98EDFF42A72D6BA00A0D288 /* HomePageFriendListView.swift in Sources */,
+				E98EDFF32A72D6BA00A0D288 /* HomePageFriendListViewData.swift in Sources */,
+				E990CAE12A7098FD00768FAF /* MenuPageFriendListView.swift in Sources */,
+				E98EDFEE2A72D62400A0D288 /* PeopleYouMayKnowView.swift in Sources */,
 				E94742E32A4680E200BF249D /* ContentView.swift in Sources */,
 				E94742E12A4680E200BF249D /* FaceBook_FriendSuggestions_pageApp.swift in Sources */,
+				E990CAE22A7098FD00768FAF /* MenuPageFriendListViewData.swift in Sources */,
+				E98EDFEF2A72D62400A0D288 /* PeopleYouMayKnowData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
